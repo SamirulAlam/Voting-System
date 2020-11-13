@@ -1,0 +1,40 @@
+.home-page{
+    background-image: url(./images/rawpixel-577494-unsplash-1920-medium-quality-opti.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.heading-section__heading-container{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+
+.home-page__card-section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.home-page__card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container__card{
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+
