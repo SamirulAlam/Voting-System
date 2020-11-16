@@ -1,0 +1,51 @@
+.login-page{
+    background-image: url(./images/hero-bg.jpg);
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page__button-container{
+    position: fixed;
+    top:15px;
+    left: 15px;
+}
+
+.login-page__form-container{
+    height: 500px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/line-2-1920px-optimized.jpg);
+    background-repeat: no-repeat;
+}
+
+.form-container__input-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-container__input-field{
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-container__button-container{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.form-container__text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}

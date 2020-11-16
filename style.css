@@ -35,6 +35,11 @@
     text-align: center;
     background-color: cornflowerblue;
     cursor: pointer;
+    transition: all ease .5s;
 }
 
+.card-container__card:hover{
+    transform: scaleY(1.08);
+    transform: scaleY(1.03);
+}
 
