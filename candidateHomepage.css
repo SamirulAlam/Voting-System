@@ -1,0 +1,45 @@
+.candidate-homepage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/call-to-action-bg.jpg);
+}
+
+.candidate-homepage__button-container{
+    position: fixed;
+    top:15px;
+    left: 15px;
+}
+
+.candidate-homepage__card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container__card{
+    background-image: url(./images/Vector\ Smart\ Object.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: .5s ease all;
+}
+
+.card-container__card:hover{
+    transform: scaleY(1.5);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
