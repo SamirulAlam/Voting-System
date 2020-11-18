@@ -1,0 +1,49 @@
+.ec-homepage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/call-to-action-bg.jpg);
+    background-position: center;
+}
+
+.ec-homepage__button-container{
+    position: fixed;
+    top:15px;
+    left: 15px;
+}
+
+.ec-homepage__card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container__card{
+    background-image: url(./images/jfl-567479-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    background-position:bottom;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: .5s ease all;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+}
+
+.card-container__card:hover{
+    transform: scaleY(1.5);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
