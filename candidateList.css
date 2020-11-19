@@ -1,0 +1,41 @@
+.candidate-list{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.candidate-list__button-container{
+    position: fixed;
+    top:15px;
+    left: 15px;
+}
+
+.card-container__card-item{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid lightgray;
+    width: 500px;
+    background-color: lightslategray;
+    border-radius: 40px;
+    margin: 5px;
+    transition: 500ms ease all;
+}
+
+.card-container__card-item:hover{
+    transform: rotate(360deg);
+}
+
+.card-container__card-item  h1{
+    margin-left: 20px;
+}
+
+.image-container__image-item{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
