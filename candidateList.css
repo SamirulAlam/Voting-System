@@ -26,6 +26,11 @@
     transition: 500ms ease all;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 .card-container__card-item:hover{
     transform: rotate(360deg);
 }

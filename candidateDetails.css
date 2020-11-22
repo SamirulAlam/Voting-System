@@ -1,0 +1,32 @@
+.candidate-details{
+    display: flex;
+
+}
+
+.candidate-details__post-container{
+    display: flex;
+    flex-direction: column;
+    flex: .75;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+.candidate-details__manifesto-container{
+    margin-left: 50px;
+    border-left: 1px solid gray;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.candidate-details__submit-button{
+    margin-top: 20px;
+    position: fixed;
+    right: 700px;
+}
+
+.candidate-details__submit-button button{
+    padding: 20px;
+    background-color: green;
+    font-weight: 800;
+    border-radius: 30px;
+}
