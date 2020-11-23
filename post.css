@@ -1,0 +1,26 @@
+.post-page__button-container{
+    position: fixed;
+    top:15px;
+    left: 15px;
+}
+
+.post-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.post-page__input-container{
+    height: 500px;
+    width: 800px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.post-page__text-container{
+    padding: 20px;
+    padding-left: 0;
+}
