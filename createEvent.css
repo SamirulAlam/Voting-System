@@ -1,0 +1,42 @@
+.create-event__button-container{
+    position: fixed;
+    top:15px;
+    left: 15px;
+}
+
+.create-event{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/jfl-567479-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.create-event__input-container{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/hero-bg.jpg);
+   
+}
+
+.input-container__name-container{
+    margin-top: 20px;
+}
+
+.input-container__deadline-container{
+    margin-top: 20px;
+}
+
+.input-container__number-container{
+    margin-top: 20px;
+}
+
+.create-event__submit-button{
+    margin-top: 20px;
+}
