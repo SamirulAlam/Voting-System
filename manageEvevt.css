@@ -1,0 +1,61 @@
+.manage-event{
+    background-image: url(./images/hero-bg.jpg);
+}
+
+.manage-event__button-container{
+    position: fixed;
+    top:15px;
+    left: 15px;
+}
+
+.manage-event-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container__create-button{
+    margin: 10px;
+}
+
+.manage-event__card{
+    height: 250px;
+    width: 200px;
+    background-image: url(./images/background.jpg);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    transition: .5s ease all;
+    margin: 20px;
+    text-align: center;
+}
+
+.manage-event__card:hover{
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 24px;
+}
