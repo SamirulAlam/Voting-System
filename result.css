@@ -30,3 +30,57 @@ ul {
   .active {
     background-color: #4CAF50;
   }
+
+  .result-page__hero-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container__card-item{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid lightgray;
+  width: 500px;
+  background-color: lightslategray;
+  border-radius: 40px;
+  margin: 5px;
+}
+
+.card-container__card-item  h1{
+ 
+  padding: 10px;
+}
+
+.image-container__image-item{
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.card-item__vote-counter{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: blueviolet;
+  text-align: center;
+  margin-left: 70px;
+  
+}
+
+.card-item__vote-counter h2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button{
+  padding: 5px;
+  background-color: chartreuse;
+  border-radius: 20px;
+}
