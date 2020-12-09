@@ -31,4 +31,39 @@ ul {
     background-color: #4CAF50;
   }
 
-  
+  span{
+    font-weight:500;
+    font-size: 14px;
+  }
+
+  .request-page__hero-section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .hero-section__details-container{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    padding:20px;
+    border: 1px solid lightgray;
+    margin: 30px;
+    -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+
+  .details-container__button-container{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+  }
+
+  button{
+    padding:10px;
+    border-radius: 30px;
+  }
